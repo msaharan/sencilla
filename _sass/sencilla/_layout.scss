@@ -2,8 +2,8 @@
  * Site header
  */
 .site-header {
-  border-top: 5px solid $grey-color-dark;
-  border-bottom: 1px solid $grey-color-light;
+  border-top: 0px solid $stroke-color;
+  border-bottom: 2px solid $stroke-color;
   min-height: $spacing-unit * 1.865;
 
   // Positioning context for the mobile navigation icon
@@ -17,10 +17,12 @@
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
+  text-decoration: none;
+  color: $text-color-light;
 
   &,
   &:visited {
-    color: $grey-color-dark;
+    color: $text-color-light;
   }
 }
 
@@ -37,7 +39,7 @@
   }
 
   .page-link {
-    color: $text-color;
+    color: $text-color-light;
     line-height: $base-line-height;
 
     // Gaps between nav items, but not on the last one
@@ -51,7 +53,7 @@
     top: 9px;
     right: $spacing-unit / 2;
     background-color: $background-color;
-    border: 1px solid $grey-color-light;
+    border: 1px solid $stroke-color;
     border-radius: 5px;
     text-align: right;
 
@@ -74,7 +76,7 @@
       text-align: center;
 
       > svg {
-        fill: $grey-color-dark;
+        fill: $text-color-light;
       }
     }
 
@@ -106,14 +108,15 @@
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid $grey-color-light;
-  padding: $spacing-unit 0;
+  border-top: 1px solid $stroke-color;
+  padding-top: $spacing-unit / 2;
+  padding-bottom: 0;
 }
 
-.footer-heading {
+/*.footer-heading {
   @include relative-font-size(1.125);
   margin-bottom: $spacing-unit / 2;
-}
+}*/
 
 .contact-list,
 .social-media-list {
@@ -123,43 +126,43 @@
 
 .footer-col-wrapper {
   @include relative-font-size(0.9375);
-  color: $grey-color;
+  color: $text-color-dark;
   margin-left: -$spacing-unit / 2;
   @extend %clearfix;
 }
 
 .footer-col {
   float: left;
-  margin-bottom: $spacing-unit / 2;
+/*  margin-bottom: $spacing-unit / 2;*/
   padding-left: $spacing-unit / 2;
 }
 
 .footer-col-1 {
-  width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-  width:         calc(35% - (#{$spacing-unit} / 2));
+  width: -webkit-calc(33% - (#{$spacing-unit} / 2));
+  width:         calc(33% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-2 {
-  width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-  width:         calc(20% - (#{$spacing-unit} / 2));
+  width: -webkit-calc(33% - (#{$spacing-unit} / 2));
+  width:         calc(33% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-3 {
-  width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-  width:         calc(45% - (#{$spacing-unit} / 2));
+  width: -webkit-calc(34% - (#{$spacing-unit} / 2));
+  width:         calc(34% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {
   .footer-col-1,
   .footer-col-2 {
-    width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-    width:         calc(50% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
+    width:         calc(35% - (#{$spacing-unit} / 2));
+  }
+  .footer-col-3 {
+    width: -webkit-calc(30% - (#{$spacing-unit} / 2));
+    width:         calc(30% - (#{$spacing-unit} / 2));
   }
 
-  .footer-col-3 {
-    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-    width:         calc(100% - (#{$spacing-unit} / 2));
-  }
 }
 
 @include media-query($on-palm) {
@@ -199,7 +202,17 @@
 
 .post-meta {
   font-size: $small-font-size;
-  color: $grey-color;
+  color: $text-color-dark;
+  a {
+    color: $text-color-dark;
+    text-decoration: none;
+
+    &:hover {
+    color: $text-color-dark;
+    text-decoration: underline;
+  }
+
+  }
 }
 
 .post-link {
@@ -252,4 +265,51 @@
       @include relative-font-size(1.125);
     }
   }
+}
+
+/**
+ * Pagination navbar
+ */
+.pagination {
+  margin-bottom: $spacing-unit;
+  @extend .social-media-list;
+  li {
+    a, div {
+      min-width: 41px;
+      text-align: center;
+      box-sizing: border-box;
+    }
+    div {
+      display: block;
+      padding: $spacing-unit / 4;
+      border: 1px solid transparent;
+      background-color: $box-fill-color;
+
+      &.pager-edge {
+        color: $stroke-color;
+        border: 1px dashed;
+      }
+    }
+  }
+}
+
+/* Tags page */
+
+.tag-btn {
+  margin: 0.3125rem;
+}
+
+#full-tags-list {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+#full-tags-list .tag-entry {
+  margin: 0 0 0.9375rem 1.5625rem;
+}
+
+#full-tags-list .tag-entry a {
+}
+
+#full-tags-list .tag-entry .entry-date {
+  color: $text-color-light;
+  font-size: 1rem;
 }

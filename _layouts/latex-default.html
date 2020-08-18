@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-  
-  {%- include head.html -%}
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include latex-head.html -%}
 
   <body>
 
@@ -8,13 +9,10 @@
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div style="float: right;" style="padding: 1rem;">
-          <img src = "{{ page.image }}" width="360" alt="Profile picture">
-        </div>
         {{ content }}
       </div>
     </main>
-    
+
     {%- include footer.html -%}
 
   </body>

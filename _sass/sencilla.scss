@@ -3,16 +3,33 @@
 // Define defaults for each variable.
 
 $base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
-$base-font-size:   16px !default;
+$base-font-size:   18px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
 
 $spacing-unit:     30px !default;
 
-$text-color:       #111 !default;
-$background-color: #fdfdfd !default;
-$brand-color:      #2a7ae2 !default;
+// Define grey tones
+// Source: https://yeun.github.io/open-color/
+$grey0:            #f8f9fa;
+$grey1:            #f1f3f5;
+$grey2:            #e9ecef;
+$grey3:            #dee2e6;
+$grey4:            #ced4da;
+$grey5:            #adb5bd;
+$grey6:            #868e96;
+$grey7:            #495057;
+$grey8:            #343a40;
+$grey9:            #212529;
+
+$text-color:        $grey5 !default;
+$text-color-light:  $grey4 !default;
+$text-color-dark:   $grey6 !default;
+$background-color:  $grey9 !default;
+/*$brand-color:       $grey7 !default;*/
+$stroke-color:      $grey7 !default;
+$box-fill-color:    $grey8 !default;
 
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
@@ -45,7 +62,7 @@ $on-laptop:        800px !default;
 
 // Import partials.
 @import
-  "minima/base",
-  "minima/layout",
-  "minima/syntax-highlighting"
+  "sencilla/base",
+  "sencilla/layout",
+  "sencilla/syntax-highlighting"
 ;
