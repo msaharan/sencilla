@@ -2,11 +2,11 @@
  * Syntax highlighting styles
  */
 .highlight {
-  background: #fff;
+  background: $box-fill-color;
   @extend %vertical-rhythm;
 
   .highlighter-rouge & {
-    background: #eef;
+    background: $box-fill-color;
   }
 
   .c     { color: #998; font-style: italic } // Comment
@@ -26,7 +26,7 @@
   .gi .x { color: #000; background-color: #afa } // Generic.Inserted.Specific
   .go    { color: #888 } // Generic.Output
   .gp    { color: #555 } // Generic.Prompt
-  .gs    { font-weight: bold } // Generic.Strong
+  .gs    { font-weight: bold } // Generic.Strong                                                                                                               
   .gu    { color: #aaa } // Generic.Subheading
   .gt    { color: #a00 } // Generic.Traceback
   .kc    { font-weight: bold } // Keyword.Constant

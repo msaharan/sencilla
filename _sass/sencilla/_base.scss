@@ -95,6 +95,7 @@ li {
  */
 h1, h2, h3, h4, h5, h6 {
   font-weight: $base-font-weight;
+  color: $text-color-light
 }
 
 
@@ -103,11 +104,12 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: $brand-color;
-  text-decoration: none;
+  color: $text-color;
+  text-decoration: underline;
 
   &:visited {
-    color: darken($brand-color, 15%);
+    color: $text-color-dark;
+    text-decoration: underline;
   }
 
   &:hover {
@@ -129,11 +131,11 @@ a {
  * Blockquotes
  */
 blockquote {
-  color: $grey-color;
-  border-left: 4px solid $grey-color-light;
+  color: $text-color-dark;
+  border-left: 4px solid $stroke-color;
   padding-left: $spacing-unit / 2;
-  @include relative-font-size(1.125);
-  letter-spacing: -1px;
+  @include relative-font-size(1);
+  letter-spacing: 0.1px;
   font-style: italic;
 
   > :last-child {
@@ -149,9 +151,9 @@ blockquote {
 pre,
 code {
   @include relative-font-size(0.9375);
-  border: 1px solid $grey-color-light;
-  border-radius: 3px;
-  background-color: #eef;
+/*  border: 1px solid $stroke-color;
+  border-radius: 3px;*/
+  background-color: $box-fill-color;
 }
 
 code {
@@ -212,7 +214,7 @@ pre {
     width: 16px;
     height: 16px;
     display: inline-block;
-    fill: #{$grey-color};
+    fill: #{$box-fill-color};
     padding-right: 5px;
     vertical-align: text-top;
 }
@@ -232,23 +234,23 @@ table {
   margin-bottom: $spacing-unit;
   width: 100%;
   text-align: $table-text-align;
-  color: lighten($text-color, 18%);
+  color: $text-color;
   border-collapse: collapse;
-  border: 1px solid $grey-color-light;
+  border: 1px solid $stroke-color;
   tr {
     &:nth-child(even) {
-      background-color: lighten($grey-color-light, 6%);
+      background-color: $box-fill-color;
     }
   }
   th, td {
     padding: ($spacing-unit / 3) ($spacing-unit / 2);
   }
   th {
-    background-color: lighten($grey-color-light, 3%);
-    border: 1px solid darken($grey-color-light, 4%);
-    border-bottom-color: darken($grey-color-light, 12%);
+    background-color: $box-fill-color;
+    border: 1px solid $stroke-color;
+    border-bottom-color: $text-color-light;
   }
   td {
-    border: 1px solid $grey-color-light;
+    border: 1px solid $stroke-color;
   }
 }
