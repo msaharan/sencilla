@@ -2,11 +2,11 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "sencilla"
-  spec.version       = "0.2.0"
+  spec.version       = "0.3.0"
   spec.authors       = ["Mohit Saharan"]
   spec.email         = ["dyskun@yahoo.com"]
 
-  spec.summary       = "A minimal Jekyll theme with LaTeX support."
+  spec.summary       = "A minimal Jekyll theme for personal websites."
   spec.homepage      = "https://github.com/dyskun/sencilla"
   spec.license       = "MIT"
 

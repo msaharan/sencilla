@@ -3,9 +3,22 @@ author:
   name: Jane Doe
   email: janedoe@example.com
 description: >-  #this means to ignore newlines until "show_excerpts:"
-  A minimal Jekyll theme with LaTeX support.
+  Jekyll theme for personal websites.
 
 url: ""
+
+logo: /assets/img/site-logo
+
+# Social Links will appear under the "Contact" link in the top navigation bar.
+## Uncomment the lines for which you want to add the social links.
+## Can't see your favorite social media platform? Please write me an email.
+
+github: dyskun
+linkedin: dyskun
+#twitter:
+#facebook:
+#instagram:
+
 
 # Exclude these files from production site
 exclude:
