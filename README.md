@@ -2,6 +2,8 @@
 
 Sencilla (pronounced sen-si-ya) is a minimal Jekyll theme for personal websites.
 
+[![Gem Version](https://badge.fury.io/rb/sencilla.svg)](https://badge.fury.io/rb/sencilla)
+
 ## Installation
 
 Add this line to your Jekyll site's `Gemfile`:
