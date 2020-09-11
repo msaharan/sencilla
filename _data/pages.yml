@@ -1,0 +1,12 @@
+- navitem: Home
+  url: index
+- navitem: Posts
+  subitems:
+    - subnavitem: All
+      url: posts
+    - subnavitem: Item2
+      url: about
+- navitem: Tags
+  url: tags
+- navitem: About
+  url: about

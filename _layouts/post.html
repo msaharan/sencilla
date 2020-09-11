@@ -38,7 +38,7 @@ layout: default
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
-  
+  <!--
   <ul class="pagination">
     {% if page.previous.url %}
     <li class="pagination">
@@ -50,7 +50,17 @@ layout: default
       <a class="page-link" href="{{ page.next.url | relative_url }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
     </li>
     {% endif %}
-  </ul>
+  </ul>-->
+
+      <div class="pagination">
+        {% if page.previous.url %}
+        <a href="{{ page.previous.url | relative_url }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}" style="float: left;"><i class="fas fa-arrow-left"></i> Previous Post</a>
+    {% endif %}
+    {% if page.next.url %}
+        <a href="{{ page.next.url | relative_url }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}" style="float: right;">Next Post <i class="fas fa-arrow-right"></i></a>
+      {% endif %}
+    </div>
+
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
   {%- endif -%}

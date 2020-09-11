@@ -1,6 +1,6 @@
 # Sencilla
 
-Sencilla (pronounced sen-si-ya) is a minimal Jekyll theme. It is a stripped-down version of [Minima v2.5.1](https://github.com/jekyll/minima) with added support for LaTeX and Tag Index page. I have also redesigned some elements and the color scheme as per my liking. The documentation and a demo site will be added soon. Until then, you can check my personal website [dyfrad.com](https://dyfrad.com) to see how this theme looks and functions. 
+Sencilla (pronounced sen-si-ya) is a minimal Jekyll theme for personal websites.
 
 ## Installation
 
@@ -36,6 +36,6 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/dyskun
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 
-## Acknowledgements
+## Credits
 
-Sencilla is a fork of [Minima](https://github.com/jekyll/minima) v2.5.1. I have incorporated the `tags.html` page from [beautiful-jekyll](https://github.com/daattali/beautiful-jekyll) and the grey color tones from [open-color](https://github.com/yeun/open-color).
+Sencilla is a fork of [Minima](https://github.com/jekyll/minima) v2.5.1. I have incorporated the `tags.html` page from [beautiful-jekyll](https://github.com/daattali/beautiful-jekyll) and the grey color tones from [open-color](https://github.com/yeun/open-color) and [material.io](https://material.io).
