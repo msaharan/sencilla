@@ -2,9 +2,7 @@
   subitems:
     - subnavitem: All
       url: posts
-    - subnavitem: Item2
-      url: about
+    - subnavitem: Dummy
+      url: 
 - navitem: Tags
   url: tags
-- navitem: About
-  url: about

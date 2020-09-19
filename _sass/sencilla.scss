@@ -57,6 +57,7 @@ $lime7:             #afb42b;
 $orange5:           #ff922b;
 $cyan5:             #22b8cf;
 $cyan7:             #1098ad;
+$cyan9:             #006064;
 
 
 /* ************ main color scheme ************ */
@@ -94,9 +95,10 @@ $text-muted:          $grey5;
 
 /* Brand color */
 
-$brand:             $lime7;
+/*$brand:             $lime7;*/
 $link:              $cyan5;
 $link-muted:        $cyan7;
+$link-hover:        $text-light;
 
 
 /* ************ profile page color scheme ************** */

@@ -8,6 +8,7 @@
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  z-index: 1;
 }
 
 /* 
@@ -41,8 +42,10 @@
 }
 
 .site-logo {
- height: 50px;
- vertical-align: middle;
+ max-height: 50px;
+ width: auto;
+ opacity: 1;
+ /*vertical-align: middle;*/
  padding-top: 5px;
  padding-bottom: 5px;
 }
@@ -384,7 +387,7 @@
   color: $text;
   }
   &:hover {
-  color: $brand;
+  color: $link-hover;
   }
 }
 }
@@ -392,6 +395,7 @@
 .profile-picture {
   text-align: center;
   img{
+    opacity: 1;
     border-radius: 48% 87% 69% 65% / 85% 52% 76% 55% ;
     //border-radius: 56% 57% 63% 53% / 66% 44% 74% 68% ;
     //border-radius: 8px;
@@ -459,7 +463,6 @@
       box-shadow: $shadow;
       color: $text-light;
       &:hover {
-      text-decoration: underline;
       background-color: $grey8;
       color: $text-light;
       box-shadow: $shadow-hover;
