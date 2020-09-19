@@ -42,12 +42,15 @@
 }
 
 .site-logo {
- max-height: 50px;
- width: auto;
- opacity: 1;
- /*vertical-align: middle;*/
- padding-top: 5px;
- padding-bottom: 5px;
+  display: inline-block;
+  max-height: 50px;
+  width: auto;
+  opacity: 1;
+  box-shadow: none;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 /* 
