@@ -3,7 +3,7 @@ author:
   name: Jane Doe
   email: janedoe@example.com
 description: >-  #this means to ignore newlines until "show_excerpts:"
-  Jekyll theme for blogs and portfolio websites
+  A Jekyll theme for blogs and portfolio websites
 
 url: ""
 
