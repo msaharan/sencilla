@@ -1,8 +1,7 @@
 ---
-layout: default
+layout: page
 title: About
 permalink: /about/
 ---
-## About me
 This is a paragraph.
 

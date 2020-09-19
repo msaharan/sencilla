@@ -1,20 +1,34 @@
 <!DOCTYPE html>
-  
   {%- include head.html -%}
 
   <body>
 
-    {%- include header.html -%}
+  {%- include header.html -%}
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        <div style="float: right;" style="padding: 1rem;" style="border-radius: 50%;">
-          <img src = "{{ page.image }}" width="360" alt="Profile picture">
+  <main class="page-content home-page" aria-label="Content">
+
+    <div class="wrapper-wide"> 
+
+      <div class="col-4 col-m-12 col-s-12">
+
+        <div class="profile-picture">
+          <img src = "{{ page.image }}" alt="Profile picture">
         </div>
+
+        <div class="social-links-home">
+          {% include social.html %}
+        </div>
+
+      </div>
+
+      <div class="col-8 col-m-12 col-s-12">
         {{ content }}
       </div>
-    </main>
-    
+
+    </div>
+
+  </main>
+
     {%- include footer.html -%}
 
   </body>

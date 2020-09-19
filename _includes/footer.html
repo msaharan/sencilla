@@ -1,17 +1,19 @@
-<footer class="site-footer h-card">
+<footer class="site-footer">
   <div class="nav-wrapper">
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <p>Copyright © 2020 {{ site.author.name }}</p>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <p>Subscribe to the <a href="/feed.xml">RSS</a> feed.</p>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>Powered by <a href="https://github.com/dyskun/sencilla">Sencilla</a>.</p>
-      </div>
+    <div class="footer-col footer-col-1">
+      Copyright © 2020 {{ site.author.name }}
     </div>
+    
+    <div class="footer-col footer-col-2">
+      {% if site.subscribe %}
+        Subscribe to the <a href="/feed.xml">RSS</a> feed
+      {% else %}
+      •
+      {% endif %}
     </div>
+
+    <div class="footer-col footer-col-3">
+      Powered by <a href="https://github.com/dyskun/sencilla">Sencilla</a>
+    </div>
+  </div>
 </footer>
