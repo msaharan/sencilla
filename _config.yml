@@ -7,7 +7,9 @@ description: >-  #this means to ignore newlines until "show_excerpts:"
 
 url: ""
 
-# Uncomment to add site logo. Move your logo to "/assets/img" and rename it as "site-logo"
+profile_picture: /assets/img/profile-picture.jpg
+
+# Move your logo to "/assets/img" and rename it as "site-logo". Comment if you don't want to add a site logo.
 #logo: /assets/img/site-logo
 
 # Social Links will appear under the "Contact" link in the top navigation bar.
