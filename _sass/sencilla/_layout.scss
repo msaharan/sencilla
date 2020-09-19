@@ -49,8 +49,6 @@
   box-shadow: none;
   margin-top: 5px;
   margin-bottom: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
   border-radius: 8px;
 }
 
@@ -79,14 +77,14 @@
     line-height: $base-line-height;
     padding-top: 18px;
     padding-bottom: 18px;
-    padding-left: 15px;
-    padding-right: 15px ;
+
     &:hover {
       color: $nav-text;
       background-color: $nav-hl;
       text-decoration: underline;
     }
     a{
+    padding: 18px;
       text-decoration: none;
       color: $nav-text;
       &:visited {
@@ -106,7 +104,7 @@
     right:0;
     top: 100%;  
     line-height: $base-line-height;
-    background-color: $nav-bg;
+    background-color: $nav-hl-dark;
     min-width: 100%;
     box-shadow: $shadow;
     z-index: 1;
@@ -501,6 +499,7 @@
 /* ---------------- Footer ----------------- */
 
 .site-footer {
+  padding-left: $spacing-unit * 1.5;
   background-color: $footer-color;
   color: $nav-text-muted;
   a{
@@ -515,18 +514,16 @@
 }
 
 .footer-col-wrapper {
+  margin-left: auto;
+  margin-right: auto;
   @include relative-font-size(0.9375);
-
-  //margin-left: -$spacing-unit / 2;
   @extend %clearfix;
 }
 
 .footer-col {
-
   @include relative-font-size(0.8);
   float: center;
-  padding: 5px;
-  //padding-left: $spacing-unit / 2;
+  padding: 10px;
 }
 
 .footer-col-1 {

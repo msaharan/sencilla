@@ -1,12 +1,5 @@
 # Changelog
 
-## TODO
-
-
-## Known issues
--   Pagination buttons appear as an unordered list.
--   Page links in the top bar appear in the alphabetical order.
-
 ## v0.4.0
 -   Navigation bar
     -   Sticks to the top
@@ -14,15 +7,15 @@
     -   Removed Contact link. Moved to the homepage.
     -   Shadows
 -   Updated color scheme
+-   Added shadows around media objects
+-   Rounded corners
 -   Images
-    -   Rounded corners
-    -   Shadows
     -   Inreased top and bottom margins
     -   Lowered the opacity for easy reading in dark. Opacity becomes normal on hover.
     -   Adding images is now easy. Added `image.html`.
+    -   Support to add captions
+-   Embedded videos are more responsive now.
 -   Tables
-    -   Rounded corners
-    -   Shadows
     -   Better looking borders
     -   Updated color scheme
 -   Pages    
@@ -31,8 +24,6 @@
         -   Increased horizontal space between tags in the Tag cloud
         -   Increased vertical space between listed posts
 -   Code 
-    -   Rounded corners
-    -   Shadows
     -   Lighter background color
     -   Added background color for inline code
 
