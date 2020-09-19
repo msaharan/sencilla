@@ -4,7 +4,7 @@ title: All Posts
 permalink: /posts
 description: Add a description of this page here. This will appear in Google results.
 ---
-<div class="home">
+<div>
   <h1 style="text-align: center;" class="post-title">{{ page.title | escape }}</h1>
   {% if site.paginate %}
     {% assign posts = paginator.posts %}
@@ -16,7 +16,7 @@ description: Add a description of this page here. This will appear in Google res
       <h2 class="post-list-heading">{{ page.list_title }}</h2>
     {%- endif -%}
     <ul class="post-list">
-      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%} 
+      {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%} 
       {%- for post in posts -%}
       <li>
         <h3 style="margin-bottom: -0.4rem;">
