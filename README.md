@@ -2,7 +2,9 @@
 
 [![Gem Version](https://badge.fury.io/rb/sencilla.svg)](https://badge.fury.io/rb/sencilla)
 
-Sencilla is a Jekyll theme designed for blogs and portfolio websites.
+A Jekyll theme designed for blogs and portfolio websites.
+
+![](screenshot.png)
 
 
 ## Installation
