@@ -1,8 +1,8 @@
+<div class="sticky">
 <header class="site-header" role="banner">
 
   <div class="nav-wrapper">
-    {%- assign default_paths = site.pages | map: "path" -%}
-    {%- assign page_paths = site.header_pages | default: default_paths -%}
+
     {%- if site.logo -%}
     <a href="{{ "/" | relative_url }}"><img class="site-logo" src="{{ site.logo }}" alt="{{ site.title }} Logo"></a>
     {%- else -%}
@@ -20,7 +20,7 @@
         </label>
 
       <div class="trigger">
-        {%- for item in site.data.pages -%}
+        {%- for item in site.data.top-nav -%}
         <div class="nav-items">
           {%- if item.subitems -%}
             <a class="nav-item-link">{{ item.navitem }}</a>
@@ -34,13 +34,9 @@
           {%- endif -%}
         </div>
         {%- endfor -%}
-        <div class="nav-items">
-          <a>Contact</a>
-          <div class="dropdown-content">
-           {% include social.html %}
-          </div>
-        </div>
       </div>
     </nav>
   </div>
+
 </header>
+</div>

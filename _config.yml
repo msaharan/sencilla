@@ -3,10 +3,11 @@ author:
   name: Jane Doe
   email: janedoe@example.com
 description: >-  #this means to ignore newlines until "show_excerpts:"
-  Jekyll theme for personal websites.
+  Jekyll theme for blogs and portfolio websites
 
 url: ""
 
+# Uncomment to add site logo. Move your logo to "/assets/img" and rename it as "site-logo"
 #logo: /assets/img/site-logo
 
 # Social Links will appear under the "Contact" link in the top navigation bar.
@@ -18,6 +19,14 @@ linkedin: dyskun
 #twitter:
 #facebook:
 #instagram:
+
+
+date_format: "%b %-d, %Y"
+
+# "Subscribe to the RSS feed" text in the bottom panel.
+# True to show. False to hide.                                                                                                          
+
+subscribe: False
 
 
 # Exclude these files from production site
@@ -34,6 +43,5 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-paginate
 
 
