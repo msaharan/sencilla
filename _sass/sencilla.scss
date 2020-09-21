@@ -5,6 +5,8 @@
 
 $nav-width:             1280px !default;
 $content-width:         750px !default;
+$content-width-medium:  $content-width + 250px !default;
+$content-width-wide:    $nav-width !default;
 $home-content-width:    $nav-width !default;
 
 $on-palm:          600px !default;
