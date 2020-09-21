@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.4.1
+-   Navigation bar
+    -   Brought back the "Contact/Links" link in the nav bar
+-   Page layout
+    -   Added three options for setting the page width. Now users can choose between `layout: page`, `layout: page-medium`, or `layout: page-wide`. The same goes with 'latex-page'. Users can choose between `latex-page`, `latex-page-medium`, and `latex-page-wide`.
+
 ## v0.4.0
 -   Navigation bar
     -   Sticks to the top
