@@ -22,7 +22,7 @@ sudo systemctl start ufw.service
 sudo ufw enable
 ```
 Lower image opacity for easy reading in low light. Becomes brighter on hover.
-{% include image.html url="/assets/img/posts/ufw.png" alt="GUFW screenshot" description="Sample caption"%}
+{% include image.html url="/assets/img/posts/ufw.png" alt="GUFW screenshot" description="Sample caption" %}
 
 No further action required. UFW will load automatically on boot. To make sure that it activates on boot. Restart your system and run the following command.
 ```bash
