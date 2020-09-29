@@ -1,14 +1,35 @@
 <!doctype html>                                                     
 <html>
 
-  {% include head.html %}
+  {%- if page.latex -%}
+    {% include latex-head.html %}
+  {%- else -%}
+    {% include head.html %}
+  {%- endif -%}
 
   <body>
     {% include header.html %}
 
     <main class="page-content" aria-label=Content">
-      <div class="wrapper">
-        {{ content }}
+      <div class="nav-wrapper">
+        <div class="col-1 col-m-12 col-s-12">
+        </div>
+        <div class="col-8 col-m-12 col-s-12">
+          {{ content }}
+        </div>
+        <div class="col-3 col-m-12 col-s-12">
+          {%- if site.sidebar_ad and page.ads -%}
+            {%- include responsive-ad.html -%}
+          {%- endif -%}
+        </div>
+      </div>
+      <div class="nav-wrapper">
+        <div class="col-12 col-m-12 col-s-12">
+          {%- if site.footer_ad and page.ads -%}
+            {%- include responsive-ad.html -%}
+          {%- endif -%}
+
+        </div>
       </div>
     </main>
 
