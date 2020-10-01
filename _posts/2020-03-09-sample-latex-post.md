@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Sample LaTeX post
-description: A brief introduction to the metric tensor and it's significance in cosmology.
-category: Articles
-tags: [physics, cosmology]
+description: How to write LaTeX with Sencilla
+category: articles
+tags: [latex, sencilla]
 latex: true
 ---
 This is a sample LaTeX post.

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Syntax highlighting 
-category: Articles
-tags: [python-programming, scipy]
+category: jekyll
+tags: [python-programming, scipy, code, sencilla]
 ---
 This is a sample post to showcase syntax highlighting in code blocks. 
 
