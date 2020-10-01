@@ -4,10 +4,8 @@
 /* ************* content width *********** */
 
 $content-width:             1100px !default;
-$home-content-width:    $content-width !default;
-
-$on-palm:          600px !default;
-$on-tablet:        767px !default;
+$on-palm:                   600px !default;
+$on-tablet:                 767px !default;
 
 @mixin media-query($device) {
   @media screen and (max-width: $device) {
@@ -87,7 +85,7 @@ $box-fill-dark:       $grey95 !default;
 $code:                $box-fill !default;
 
 /* footer */
-$footer-color:        $grey9 !default;
+$footer-color:        $grey85 !default;
 
 $text-muted:          $grey5;
 //$profile-bg-color:          $grey8;
