@@ -1,5 +1,5 @@
 ---
-layout: post-test
+layout: post
 title: Syntax highlighting 
 category: Articles
 tags: [python-programming, scipy]
