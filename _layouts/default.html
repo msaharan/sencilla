@@ -9,22 +9,57 @@
 
     <main class="page-content" aria-label=Content">
       <div class="wrapper">
+
         <div class="col-9 col-m-12 col-s-12">
           {{ content }}
         </div>
+
         <div class="col-3 col-m-12 col-s-12">
+          {%- if page.layout == "post" -%}
+
+            <div class="sidebar-meta">
+
+              <p>
+              <strong>Category</strong>
+              <br>
+              <br>
+              {{ page.category | capitalize}}
+              {%- if page.tags.size > 0 -%}
+                <hr>
+                <strong>Tags</strong>
+                <br>
+                <br>
+                {% if site.link-tags %}
+                  {% for tag in page.tags %}
+                    <a href="{{ '/tags' | relative_url }}#{{- tag -}}">{{- tag -}}</a>
+                  {% endfor %}
+                {% else %}
+                    {{ page.tags | join: ", " }}
+                {% endif %}
+              {% endif %}
+              </p>
+
+            </div>
+
+          {%- endif -%} 
+          
           {%- if site.sidebar_ad and page.ads -%}
             {%- include responsive-ad.html -%}
           {%- endif -%}
         </div>
+
       </div>
+
       <div class="wrapper">
+
         <div class="col-12 col-m-12 col-s-12">
           {%- if site.footer_ad and page.ads -%}
             {%- include responsive-ad.html -%}
           {%- endif -%}
         </div>
+
       </div>
+
     </main>
 
     {% include footer.html %}
