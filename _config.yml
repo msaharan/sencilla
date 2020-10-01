@@ -2,11 +2,12 @@ title: Sencilla
 author:
   name: Jane Doe
   email: janedoe@example.com
-description: >-  #this means to ignore newlines until "show_excerpts:"
-  A Jekyll theme for blogs and portfolio websites
+description: >-
+  A Jekyll theme for blogs and portfolio websites.
 
 url: ""
 
+# Move your logo to "/assets/img"
 profile_picture: "/assets/img/profile-picture.jpg"
 
 # Move your logo to "/assets/img" and rename it as "site-logo". Comment if you don't want to add a site logo.
@@ -15,21 +16,17 @@ logo: "/assets/img/site-logo"
 # Social Links will appear under the "Contact" link in the top navigation bar.
 ## Uncomment the lines for which you want to add the social links.
 ## Can't see your favorite social media platform? Please write me an email.
-
 github: dyskun
 linkedin: dyskun
 twitter: dyskun
 #facebook:
 #instagram:
-feedburner: dyfrad
 
 date_format: "%b %-d, %Y"
 
 # "Subscribe to the RSS feed" text in the bottom panel.
-# True to show. False to hide.                                                                                                          
-
-subscribe: False
-
+# true to show. false to hide.
+subscribe: false
 
 # Exclude these files from production site
 exclude:
@@ -45,5 +42,3 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-
-
