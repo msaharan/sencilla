@@ -27,7 +27,7 @@ layout: default
       {% if page.category %} 
       • {{ page.category }}
       {% endif %}
-
+      
       {% if page.tags.size > 0 %}    
       • Tags:
        {% if site.link-tags %}
@@ -38,7 +38,6 @@ layout: default
          {{ page.tags | join: ", " }}
        {% endif %}
       {% endif %}
-
     </p>
   </header>
 
