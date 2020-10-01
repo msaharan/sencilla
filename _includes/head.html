@@ -24,7 +24,9 @@
   {%- feed_meta -%}
 
   <link href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" rel="stylesheet">
-
-  {%- include custom-head.html -%}
+  
+  {%- if site.custom_head -%}
+    {%- include custom-head.html -%}
+  {%- endif -%}
 
 </head> 
