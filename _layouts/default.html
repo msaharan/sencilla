@@ -1,7 +1,10 @@
 <!doctype html>                                                     
 <html>
+
   {% include head.html %}
+
   <body>
+
     {% include header.html %}
 
     <main class="page-content" aria-label=Content">
@@ -20,12 +23,12 @@
           {%- if site.footer_ad and page.ads -%}
             {%- include responsive-ad.html -%}
           {%- endif -%}
-
         </div>
       </div>
     </main>
 
     {% include footer.html %}
-
+    
   </body>
+
 </html>
