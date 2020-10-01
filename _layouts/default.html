@@ -11,10 +11,8 @@
     {% include header.html %}
 
     <main class="page-content" aria-label=Content">
-      <div class="nav-wrapper">
-        <div class="col-1 col-m-12 col-s-12">
-        </div>
-        <div class="col-8 col-m-12 col-s-12">
+      <div class="wrapper">
+        <div class="col-9 col-m-12 col-s-12">
           {{ content }}
         </div>
         <div class="col-3 col-m-12 col-s-12">
@@ -23,7 +21,7 @@
           {%- endif -%}
         </div>
       </div>
-      <div class="nav-wrapper">
+      <div class="wrapper">
         <div class="col-12 col-m-12 col-s-12">
           {%- if site.footer_ad and page.ads -%}
             {%- include responsive-ad.html -%}
