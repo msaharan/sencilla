@@ -60,12 +60,12 @@ $cyan9:             #006064;
 /* ************ main color scheme ************ */
 
 /* navbar */
-$nav-bg:              $grey9 !default;  /* background */
+$nav-bg:              $grey95 !default;  /* background */
 $nav-hl:              $grey8 !default;  /* highlight on hover */
 $nav-hl-dark:         $grey85 !default;
 $nav-hl-light:        $grey7 !default;
 $nav-dd:              $grey95 !default; /* dropdown */
-$nav-text:            $grey3 !default;
+$nav-text:            $grey4 !default;
 $nav-text-muted:      $grey7 !default;
 
 /* body */
@@ -85,7 +85,7 @@ $box-fill-dark:       $grey95 !default;
 $code:                $box-fill !default;
 
 /* footer */
-$footer-color:        $grey85 !default;
+$footer-color:        $nav-bg !default;
 
 $text-muted:          $grey5;
 //$profile-bg-color:          $grey8;
