@@ -4,6 +4,7 @@ title: Sample LaTeX post
 description: A brief introduction to the metric tensor and it's significance in cosmology.
 category: Articles
 tags: [physics, cosmology]
+latex: true
 ---
 This is a sample LaTeX post.
 
