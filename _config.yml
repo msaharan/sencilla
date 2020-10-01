@@ -24,6 +24,13 @@ twitter: dyskun
 
 date_format: "%b %-d, %Y"
 
+# Do you want to add a script between the <head> </head> tags? 
+# Make a directory in the root of your site: /_includes
+# Create a file named custom-head.html in the _includes directory
+# Paste the script you want to add in custom-head.html
+# Replace false with true to activate your script
+custom_head: true
+
 # "Subscribe to the RSS feed" text in the bottom panel.
 # true to show. false to hide.
 subscribe: false
