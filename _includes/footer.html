@@ -1,12 +1,12 @@
 <footer class="site-footer">
-  <div class="nav-wrapper">
+  <div class="wrapper">
     <div class="footer-col footer-col-1">
       Copyright © 2020 {{ site.author.name }}
     </div>
     
     <div class="footer-col footer-col-2">
       {% if site.subscribe %}
-        Subscribe to the <a href="/feed.xml">RSS</a> feed
+      Subscribe via <a href="https://feedburner.google.com/fb/a/mailverify?uri={{ site.feedburner }}&amp;loc=en_US">Email</a>  or via <a href="/feed.xml">RSS</a> 
       {% else %}
       •
       {% endif %}
