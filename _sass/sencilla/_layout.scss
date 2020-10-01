@@ -249,6 +249,21 @@
   }
 }
 
+.sidebar-meta {
+  display: block;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: $shadow-body;
+  width: 100%;
+  height: auto;
+  padding-top: $spacing-unit;
+  padding-bottom: $spacing-unit;
+  padding-left: $spacing-unit / 2;
+  padding-right: $spacing-unit / 2;
+  font-size: $small-font-size;
+  background-color: $box-fill;
+}
+
 .post-link {
   display: block;
   @include relative-font-size(1.5);
@@ -301,29 +316,18 @@
 
 .video {
   display: block;
-  max-width: 100%;
-  margin-top: $spacing-unit;
-  margin-bottom: $spacing-unit;
-  margin-left: auto;
-  margin-right: auto;
-  border: 0px;
   border-radius: 8px;
   box-shadow: $shadow-body;
 }
 
 .document {
   display: block;
-  max-width: 100%;
   width: 100%;
   height: 500px;
-  margin-top: $spacing-unit;
-  margin-bottom: $spacing-unit;
-  margin-left: auto;
-  margin-right: auto;
-  border: 0px;
   border-radius: 8px;
   box-shadow: $shadow-body;
 }
+
 
 /* --------------- profile page ---------------------- */
 
