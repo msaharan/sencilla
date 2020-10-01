@@ -578,13 +578,3 @@
     width:         calc(100% - (#{$spacing-unit} / 2));
   }
 }
-
-/* ------------ Ads ------------------ */
-.advertisement {
-  img{
-    display: none;
-    border-radius: 8px;
-    box-shadow: 0px 0px 0px 0px;
-  }
-}
-
