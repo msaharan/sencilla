@@ -25,6 +25,14 @@
 
   <link href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" rel="stylesheet">
   
+  {%- if page.latex -%}
+  <script type="text/javascript" async src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+  </script>
+  {%- endif -%}
+
   {%- if site.custom_head -%}
     {%- include custom-head.html -%}
   {%- endif -%}
