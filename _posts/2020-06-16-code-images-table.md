@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Code, images, tables
-description: Setting up the firewall for the first time
-category: Articles
-tags: [linux, firewall]
+description: Demo for adding code, images and tables
+category: tutorials
+tags: [code, images, tables, sencilla]
 ---
 
 ## Code
