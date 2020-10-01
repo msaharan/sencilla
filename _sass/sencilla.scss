@@ -3,11 +3,8 @@
 
 /* ************* content width *********** */
 
-$nav-width:             1280px !default;
-$content-width:         750px !default;
-$content-width-medium:  $content-width + 250px !default;
-$content-width-wide:    $nav-width !default;
-$home-content-width:    $nav-width !default;
+$content-width:             1100px !default;
+$home-content-width:    $content-width !default;
 
 $on-palm:          600px !default;
 $on-tablet:        767px !default;
@@ -71,7 +68,7 @@ $nav-hl-dark:         $grey85 !default;
 $nav-hl-light:        $grey7 !default;
 $nav-dd:              $grey95 !default; /* dropdown */
 $nav-text:            $grey3 !default;
-$nav-text-muted:      $grey5 !default;
+$nav-text-muted:      $grey7 !default;
 
 /* body */
 $bg:                  $grey9 !default;
@@ -90,7 +87,7 @@ $box-fill-dark:       $grey95 !default;
 $code:                $box-fill !default;
 
 /* footer */
-$footer-color:        $grey95 !default;
+$footer-color:        $grey9 !default;
 
 $text-muted:          $grey5;
 //$profile-bg-color:          $grey8;
