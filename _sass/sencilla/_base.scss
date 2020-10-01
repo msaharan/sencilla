@@ -65,7 +65,7 @@ img {
   border-radius: 8px;
   box-shadow: $shadow-body;
   
-  opacity: 0.6;
+  opacity: 0.75;
   &:hover {
     opacity: 1;
   }
@@ -75,22 +75,22 @@ img {
 
 
 /**
- * Videos
+ * Embed
  */
-/*
+
 iframe {
-  display: block;
   max-width: 100%;
   margin-top: $spacing-unit;
   margin-bottom: $spacing-unit;
   margin-left: auto;
   margin-right: auto;
-  
   border: 0px;
-  border-radius: 8px;
-  box-shadow: $shadow-body;
+  opacity: 0.75;
+  &:hover {
+    opacity: 1;
+  }
 }
-*/
+
 
 
 /**
@@ -187,7 +187,7 @@ blockquote {
 pre,
 code {
   @include relative-font-size(0.9375);
-  background-color: $box-fill;
+  background-color: $code;
 }
 
 code {
