@@ -1,5 +1,11 @@
 # Changelog
 
+## To do
+*   Show "Last updated" on pages and add a toggle command in the front matter.
+*   Add a light colour scheme
+
+## v0.5.0
+
 ## v0.4.1
 -   Navigation bar
     -   Brought back the "Contact/Links" link in the nav bar
