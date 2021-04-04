@@ -1,8 +1,12 @@
 # Changelog
 
 ## To do
-*   Show "Last updated" on pages and add a toggle command in the front matter.
 *   Add a light colour scheme
+*   The user should be able to switch between two formats of the home page -- one that shows their introduction and the other that shows their posts.
+*   Do something about the "Links" tab in the top bar. 
+*   The navigation buttons at the bottom of posts should keep the user within the category of that specific post, so that they go to the last/next post in that specific category.
+*   Allow people to subscribe to a specific category.
+*   Fix the issue with rounded corners of the tables that have more than three columns.
 
 ## v0.5.0
 
