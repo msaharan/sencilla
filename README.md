@@ -38,7 +38,7 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/dyskun
 
 ## License
 
-This theme is available under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+This theme is available under the terms of [MIT License](https://opensource.org/licenses/MIT).
 
 ## Credits
 
