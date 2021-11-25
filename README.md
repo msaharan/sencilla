@@ -38,12 +38,11 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/dyskun
 
 ## License
 
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+This theme is available under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 
 ## Credits
 
-Sencilla is a fork of [Minima](https://github.com/jekyll/minima) v2.5.1. I have incorporated the `tags.html` page from [beautiful-jekyll](https://github.com/daattali/beautiful-jekyll) and the color tones from [open-color](https://github.com/yeun/open-color) and [material.io](https://material.io). 
+- Sencilla is a fork of [Minima](https://github.com/jekyll/minima) v2.5.1. 
+- I took `tags.html` from [beautiful-jekyll](https://github.com/daattali/beautiful-jekyll) and the color tones from [open-color](https://github.com/yeun/open-color) and [material.io](https://material.io). 
+- Source of `/assets/img/profile-picture.jpg`: [Pexels.com](https://www.pexels.com/photo/silhouette-photo-of-person-during-golden-hour-2475138/)
 
-Thanks to [w3schools.com](https://www.w3schools.com/) for putting up amazing resources online for free. Most of what I have learnt about HTML and CSS have come from w3schools.
-
-Source of `/assets/img/profile-picture.jpg`: [Pexels.com](https://www.pexels.com/photo/silhouette-photo-of-person-during-golden-hour-2475138/)
