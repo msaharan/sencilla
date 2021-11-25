@@ -1,12 +1,31 @@
 # Changelog
 
 ## To do
-*   Add a light colour scheme
-*   The user should be able to switch between two formats of the home page -- one that shows their introduction and the other that shows their posts.
-*   Do something about the "Links" tab in the top bar. 
-*   The navigation buttons at the bottom of posts should keep the user within the category of that specific post, so that they go to the last/next post in that specific category.
-*   Allow people to subscribe to a specific category.
-*   Fix the issue with rounded corners of the tables that have more than three columns.
+-   Maybe: Allow people to subscribe to a specific category.
+-   Navigation
+    -   The navigation buttons at the bottom of posts should keep the user within the category of that specific post, so that they go to the last/next post in that specific category.
+    -   Top navigation bar
+        -   User can choose to include the Links tab in top nav bar. Not included by default.
+        -   Remove the separate list of social links from header.html. Include social.html under Links tab.
+-   Layout: 
+    -   Home page: -   The user should be able to switch between two formats of the home page -- one that shows their introduction and the other that shows a list of recent posts.
+    -   Pages
+        -   Show last modified date
+    -   Side bar
+        -   Add another side bar below meta data side bar. Potential use: Table of contents. This will require the sidebar to be moved to the left side of the page on computer's screen.
+        -   Add a 'Tweet' sidebar somewhere on the site. Use it to display updates that are too short to make a separate post.
+
+-   Content
+    -   Add a light colour scheme
+    -   Issue: Rounded corners of tables with more than three columns
+    -   Headings
+        -   Heading 1 is smaller than H2.
+        -   Headings should be numbered. It's hard to follow the sub-hedings by just looking at their font size.
+-   Bottom bar
+    -   Theme name only, not the version
+    -   RSS link - should I keep it?
+    -   ~~Copyright Year Author name~~ -> Author name
+
 
 ## v0.5.0
 
