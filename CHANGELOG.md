@@ -25,6 +25,7 @@
     -   Theme name only, not the version
     -   RSS link - should I keep it?
     -   ~~Copyright Year Author name~~ -> Author name
+    -   Site updated on: date, time, timezone
 
 
 ## v0.5.0
