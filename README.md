@@ -45,4 +45,5 @@ This theme is available under the terms of [MIT License](https://opensource.org/
 - Sencilla is a fork of [Minima](https://github.com/jekyll/minima) v2.5.1. 
 - I took `tags.html` from [beautiful-jekyll](https://github.com/daattali/beautiful-jekyll) and the color tones from [open-color](https://github.com/yeun/open-color) and [material.io](https://material.io). 
 - Source of `/assets/img/profile-picture.jpg`: [Pexels.com](https://www.pexels.com/photo/silhouette-photo-of-person-during-golden-hour-2475138/)
+- Icons: [Font Awesome](https://fontawesome.com)
 
