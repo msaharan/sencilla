@@ -35,7 +35,7 @@ custom_head: true
 
 # "Subscribe to the RSS feed" text in the bottom panel.
 # true to show. false to hide.
-subscribe: false
+subscribe: true
 
 # Exclude these files from production site
 exclude:
