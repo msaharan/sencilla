@@ -9,8 +9,6 @@
         -   Remove the separate list of social links from header.html. Include social.html under Links tab.
 -   Layout: 
     -   Home page: -   The user should be able to switch between two formats of the home page -- one that shows their introduction and the other that shows a list of recent posts.
-    -   Pages
-        -   Show last modified date
     -   Side bar
         -   Add another side bar below meta data side bar. Potential use: Table of contents. This will require the sidebar to be moved to the left side of the page on computer's screen.
         -   Add a 'Tweet' sidebar somewhere on the site. Use it to display updates that are too short to make a separate post.
@@ -27,6 +25,11 @@
     -   ~~Copyright Year Author name~~ -> Author name
     -   Site updated on: date, time, timezone
 
+## 0.6.0
+-   Pages show last moddified date.
+-   Changed Sencilla branding on the footer
+-   RSS link stays; true by default. 
+-   Maybe some more. I didn't really keep track until now.
 
 ## v0.5.0
 
