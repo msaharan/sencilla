@@ -23,7 +23,15 @@ layout: default
         </time>
       {%- endif -%}
     </p>
+
+    <p class="post-description">
+      {%- if page.description -%}
+        {{ page.description }}
+      {%- endif -%}
+    </p>
   </header>
+
+
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
