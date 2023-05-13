@@ -15,6 +15,7 @@
         </div>
 
         <div class="col-3 col-m-12 col-s-12">
+          
           {%- if page.layout == "post" -%}
 
             <div class="sidebar-meta">
@@ -42,6 +43,17 @@
             </div>
 
           {%- endif -%} 
+          {%- if page.toc -%}
+            <div class="sidebar-meta">
+                <strong>Sections</strong>
+                <br>
+                <br>
+
+              {{ content | toc_only }}
+
+            </div>
+          {%- endif -%}
+
           
         </div>
 

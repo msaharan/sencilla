@@ -3,6 +3,7 @@ layout: default
 title: All Posts
 permalink: /posts
 description: Add a description of this page here. This will appear in Google results.
+toc: True
 ---
 <div>
   <h1 style="text-align: center;" class="post-title">{{ page.title | escape }}</h1>
@@ -24,6 +25,7 @@ description: Add a description of this page here. This will appear in Google res
             {{ post.title | escape }}
           </a>
         </h3>
+
         <span class="post-meta">{{ post.date | date: date_format }} {%- if post.last_modified_at -%} </span>
         <span class="post-meta"> ~ {{ post.last_modified_at | date: date_format}}{%- endif -%}</span> 
         <span class="post-meta">
@@ -39,6 +41,13 @@ description: Add a description of this page here. This will appear in Google res
           {% endif %}
           {% endif %}
         </span>
+
+        {%- if post.description -%}
+        <p class="post-description-all-posts">
+            {{ post.description }} 
+        </p>
+        {%- endif -%}
+
        </li>
       {%- endfor -%}
     </ul>
