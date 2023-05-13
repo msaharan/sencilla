@@ -35,7 +35,7 @@ custom_head: true
 
 # "Subscribe to the RSS feed" text in the bottom panel.
 # true to show. false to hide.
-subscribe: true
+subscribe: false
 
 # TOC Settings
 toc:
@@ -56,7 +56,6 @@ exclude:
   - docs/
 
 plugins: 
-  - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-toc
