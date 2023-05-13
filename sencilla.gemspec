@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "sencilla"
-  spec.version       = "0.6.0"
+  spec.version       = "0.7.0-1"
   spec.authors       = ["Mohit Saharan"]
   spec.email         = ["dyskun@yahoo.com"]
 
@@ -13,9 +13,7 @@ Gem::Specification.new do |spec|
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README)!i) }
 
   spec.add_runtime_dependency "jekyll", "~> 4.1"
-  spec.add_runtime_dependency "jekyll-feed", "~> 0.15"
   spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.6"
   spec.add_runtime_dependency "jekyll-sitemap", "~> 1.4"
-
   spec.add_development_dependency "bundler", "~> 2.1"
 end
