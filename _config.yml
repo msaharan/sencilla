@@ -34,10 +34,6 @@ date_format: "%b %-d, %Y"
 # Replace false with true to activate your script
 custom_head: true
 
-# "Subscribe to the RSS feed" text in the bottom panel.
-# true to show. false to hide.
-subscribe: false
-
 # TOC Settings
 toc:
  min_level: 2
