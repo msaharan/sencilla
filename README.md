@@ -28,13 +28,10 @@ Or install it yourself as:
 
     $ gem install sencilla
 
-## Usage
-
-Will be added soon.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/dyskun/sencilla/.
+Bug reports and pull requests are welcome on GitHub at https://github.com/msaharan/sencilla/.
 
 ## License
 
