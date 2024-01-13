@@ -35,14 +35,6 @@ date_format: "%b %-d, %Y"
 # Replace false with true to activate your script
 custom_head: true
 
-# TOC Settings
-toc:
- min_level: 2
- max_level: 3
- list_class: toc
- list_class: toc__list
- sublist_class: toc__sublist
-
 # Exclude these files from production site
 exclude:
   - CHANGELOG.md
