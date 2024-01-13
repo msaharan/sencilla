@@ -10,16 +10,13 @@
     <main class="page-content" aria-label=Content">
       <div class="wrapper">
 
-        <div class="col-9 col-m-12 col-s-12">
-          {{ content }}
-        </div>
-
-        <div class="col-3 col-m-12 col-s-12">
-          
-          {%- if page.layout == "post" -%}
-
+        {%- if page.layout != "post" -%}
+          <div class="col-12 col-m-12 col-s-12"> {{ content }} </div>
+        {%- endif -%}
+        {%- if page.layout == "post" -%}
+          <div class="col-9 col-m-12 col-s-12"> {{ content }} </div>
+          <div class="col-3 col-m-12 col-s-12">
             <div class="sidebar-meta">
-
               <p>
               <strong>Category</strong>
               <br>
@@ -39,11 +36,9 @@
                 {% endif %}
               {% endif %}
               </p>
-
             </div>
-
-          {%- endif -%} 
-        </div>
+          </div>
+        {%- endif -%}
 
       </div>
 
