@@ -37,34 +37,7 @@
         <div class="nav-items">
           <a>Links</a>
           <div class="dropdown-content">
-            {%- if site.author.email -%}
-              <a href="mailto:{{ site.author.email }}"><i class="far fa-envelope"></i></a>
-            {%- endif -%}
-
-            {%- if site.github -%}
-              <a href="https://github.com/{{ site.github }}"><i class="fab fa-github"></i></a>
-            {%- endif -%}
-
-            {%- if site.twitter -%}
-              <a href="https://twitter.com/{{ site.twitter }}"><i class="fab fa-twitter"></i></a>
-            {%- endif -%}
-
-            {%- if site.facebook -%}
-              <a href="https://facebook.com/{{ site.facebook }}"><i class="fab fa-facebook"></i></a>
-            {%- endif -%}
-
-            {%- if site.instagram -%}
-              <a  href="https://instagram.com/{{ site.instagram }}"><i class="fab fa-instagram"></i></a>
-            {%- endif -%}
-
-            {%- if site.linkedin -%}
-              <a  href="https://linkedin.com/in/{{ site.linkedin }}"><i class="fab fa-linkedin"></i></a>
-            {%- endif -%}
-
-            {%- if site.website -%}
-              <a  href="https://{{ site.website }}"><i class="fa fa-globe"></i></a>
-            {%- endif -%}
-
+            {% include social.html %}
           </div>
         </div>
       </div>
