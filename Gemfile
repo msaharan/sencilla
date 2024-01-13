@@ -7,4 +7,5 @@ gem "jekyll"
 gem "jekyll-sitemap"
 gem "jekyll-seo-tag"
 gem 'jekyll-toc'
+# gem 'jekyll-paginate'
 
