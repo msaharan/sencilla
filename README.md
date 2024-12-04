@@ -35,7 +35,7 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/msahar
 
 ## License
 
-This theme is available under the terms of [MIT License](https://opensource.org/licenses/MIT).
+This theme is available under the terms of [Apache License, Version 2.0](https://opensource.org/license/apache-2-0/).
 
 ## Credits
 
