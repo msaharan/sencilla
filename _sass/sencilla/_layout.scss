@@ -394,47 +394,6 @@
   box-shadow: $shadow-body;
 }
 
-/* --------------- toc ---------------------- */
-/*
-.toc__list:before {
- content: "Table Of Contents";
- text-size: bold;
-}
-
-.toc__list {
-// display: block;
- text-align: center;
-// width: 100%;
- border-radius: 8px;
- border-width: 2px;
- height: auto;
-// padding-top: calc($spacing-unit / 2);
-// padding-bottom: calc($spacing-unit / 2);
-// padding-left: $spacing-unit;
-// padding-right: $spacing-unit;
- margin-left: auto;
- margin-right: auto;
-// background-color: $box-fill;
- font-size: $small-font-size;
- color: $text;
-}
-
-  a {
-    color: $text-muted;
-    text-decoration: none;
-
-    &:visited {
-      color: $text-muted;
-      text-decoration: none;
-    }
-
-    &:hover {
-      color: $link;
-      text-decoration: underline;
-    }
-  }
-*/
-
 
 /* --------------- profile page ---------------------- */
 

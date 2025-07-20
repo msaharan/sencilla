@@ -3,7 +3,6 @@ layout: post
 title: Syntax highlighting 
 category: jekyll
 tags: [python-programming, scipy, code, sencilla]
-toc: True
 ---
 This is a sample post to showcase syntax highlighting in code blocks. 
 

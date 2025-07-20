@@ -52,5 +52,4 @@ exclude:
 plugins: 
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-toc
   # - jekyll-paginate
