@@ -27,9 +27,6 @@ github: github.com/msaharan/sencilla
 #youtube: 
 website: github.com/msaharan/sencilla
 
-# paginate: 2
-# paginate_path: "/page/:num/"
-
 date_format: "%b %-d, %Y"
 
 # Do you want to add a script between the <head> </head> tags? 
@@ -52,4 +49,4 @@ exclude:
 plugins: 
   - jekyll-seo-tag
   - jekyll-sitemap
-  # - jekyll-paginate
+
