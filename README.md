@@ -33,6 +33,29 @@ Or install it yourself as:
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/msaharan/sencilla/.
 
+## Releasing a New Version
+
+To build and release a new version of the `sencilla` gem to [RubyGems.org](https://rubygems.org/gems/sencilla):
+
+1. **Update the version number** in `sencilla.gemspec` as needed.
+2. **Build the gem:**
+   ```sh
+   gem build sencilla.gemspec
+   ```
+   This will generate a file like `sencilla-x.y.z.gem`.
+
+3. **Sign in to RubyGems (if you haven't already):**
+   ```sh
+   gem signin
+   ```
+
+4. **Push the gem to RubyGems:**
+   ```sh
+   gem push sencilla-x.y.z.gem
+   ```
+
+You must have a [RubyGems.org](https://rubygems.org/) account and permission to push to the `sencilla` gem.
+
 ## License
 
 This theme is available under the terms of [Apache License, Version 2.0](https://opensource.org/license/apache-2-0/).
