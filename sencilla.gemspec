@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "sencilla"
-  spec.version       = "0.7.6"
+  spec.version       = "0.7.7"
   spec.authors       = ["Mohit Saharan"]
   spec.email         = ["dyskun@yahoo.com"]
 
