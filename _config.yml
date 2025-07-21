@@ -27,7 +27,7 @@ github: github.com/msaharan/sencilla
 #youtube: 
 website: github.com/msaharan/sencilla
 
-date_format: "%b %-d, %Y"
+date_format: "%-d %b %Y"
 
 # Do you want to add a script between the <head> </head> tags? 
 # Make a directory in the root of your site: /_includes
