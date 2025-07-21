@@ -3,6 +3,7 @@ layout: post
 title: Sample LaTeX post
 description: How to write LaTeX with Sencilla
 category: articles
+date: 2020-03-09 T13:05:00 +05:30
 tags: [latex, sencilla]
 latex: true
 ---
