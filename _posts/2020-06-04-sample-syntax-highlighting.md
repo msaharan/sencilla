@@ -2,6 +2,7 @@
 layout: post
 title: Syntax highlighting 
 category: jekyll
+date: 2020-06-04 T13:05:00 +05:30
 tags: [python-programming, scipy, code, sencilla]
 ---
 This is a sample post to showcase syntax highlighting in code blocks. 

@@ -2,6 +2,7 @@
 layout: post
 title: Code, images, tables
 description: Demo for adding code, images and tables
+date: 2020-06-16 T13:05:00 +05:30
 category: tutorials
 tags: [code, images, tables, sencilla]
 ---
