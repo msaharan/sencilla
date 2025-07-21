@@ -1,6 +1,6 @@
 # Sencilla
 
-[![Gem Version](https://badge.fury.io/rb/sencilla.svg)](https://badge.fury.io/rb/sencilla)
+[![Gem Version](https://badge.fury.io/rb/sencilla.svg?icon=si%3Arubygems)](https://badge.fury.io/rb/sencilla)
 
 A Jekyll theme for blogs and portfolio websites.
 
