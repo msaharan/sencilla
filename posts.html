@@ -12,7 +12,7 @@ description: Add a description of this page here. This will appear in Google res
       <h2 class="post-list-heading">{{ page.list_title }}</h2>
     {%- endif -%}
     <ul class="post-list">
-      {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%} 
+      {%- assign date_format = site.date_format | default: "%-d %b %Y" -%} 
       {%- for post in posts -%}
       <li>
         <h3 style="margin-bottom: -0.4rem;">
