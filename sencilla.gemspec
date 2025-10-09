@@ -2,11 +2,11 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "sencilla"
-  spec.version       = "0.7.8"
+  spec.version       = "0.7.9"
   spec.authors       = ["Mohit Saharan"]
   spec.email         = ["dyskun@yahoo.com"]
 
-  spec.summary       = "A Jekyll theme for blogs and portfolio websites."
+  spec.summary       = "A Jekyll theme for blogs."
   spec.homepage      = "https://github.com/msaharan/sencilla"
   spec.license       = "Apache-2.0"
 
