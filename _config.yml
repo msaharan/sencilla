@@ -18,7 +18,10 @@ logo: "/assets/img/site-logo"
 # Social Links will appear under the "Contact" link in the top navigation bar.
 ## Uncomment the lines for which you want to add the social links.
 ## Can't see your favorite social media platform? Please write me an email.
-github: github.com/msaharan/sencilla
+github: msaharan/sencilla
+huggingface: msaharan
+kaggle: msaharan
+leetcode: mht_shrn
 #linkedin: 
 #twitter: 
 #bluesky: 
