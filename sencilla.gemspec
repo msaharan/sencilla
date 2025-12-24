@@ -2,13 +2,14 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "sencilla"
-  spec.version       = "0.7.11"
+  spec.version       = "0.7.12"
   spec.authors       = ["Mohit Saharan"]
   spec.email         = ["dyskun@yahoo.com"]
 
   spec.summary       = "A Jekyll theme for blogs."
   spec.homepage      = "https://github.com/msaharan/sencilla"
   spec.license       = "Apache-2.0"
+  spec.required_ruby_version = ">= 2.4.0"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README)!i) }
 
