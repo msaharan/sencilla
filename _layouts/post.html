@@ -22,6 +22,20 @@ layout: default
           ~ {{ mdate | date: date_format }}
         </time>
       {%- endif -%}
+      {%- if page.category -%}
+      | Category: 
+      {{ page.category | capitalize}}
+      {%- endif -%}
+      {%- if page.tags.size > 0 -%}
+        | Tags:
+        {% if site.link-tags %}
+          {% for tag in page.tags %}
+            <a href="{{ '/tags' | relative_url }}#{{- tag -}}">{{- tag -}}</a>
+          {% endfor %}
+        {% else %}
+            {{ page.tags | join: ", " }}
+        {% endif %}
+      {% endif %}
     </p>
 
       {%- if page.description -%}
