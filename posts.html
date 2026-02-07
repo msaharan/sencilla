@@ -23,7 +23,10 @@ description: Add a description of this page here. This will appear in Google res
 
         <span class="post-meta">{{ post.date | date: date_format }} {%- if post.last_modified_at -%} ~ {{ post.last_modified_at | date: date_format}}{%- endif -%}</span> 
         <span class="post-meta">
-          | {{ post.category }}
+          {%- if post.category -%}
+          | Category: 
+          {{ post.category | capitalize}}
+          {%- endif -%}
           {% if post.tags.size > 0 %}
           | Tags:
           {% if site.link-tags %}
