@@ -7,7 +7,7 @@ description: >-
 
 url: ""
 
-permalink: /:categories/:title/
+permalink: 'pretty'
 
 # Move your logo to "/assets/img"
 profile_picture: "/assets/img/profile-picture.jpg"
