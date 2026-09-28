@@ -19,16 +19,18 @@ logo: "/assets/img/site-logo"
 ## Uncomment the lines for which you want to add the social links.
 ## Can't see your favorite social media platform? Please write me an email.
 github: msaharan/sencilla
-huggingface: msaharan
-kaggle: msaharan
-leetcode: mht_shrn
-#linkedin: 
-#twitter: 
-#bluesky: 
-#facebook:
-#instagram:
-#youtube: 
-website: github.com/msaharan/sencilla
+huggingface: username
+kaggle: username
+leetcode: username
+hackerrank: username
+substack: msaharan
+linkedin: username
+twitter: username
+# bluesky: username
+# facebook: username
+# instagram: username
+youtube: username 
+website: https://github.com/msaharan/sencilla
 
 date_format: "%-d %b %Y"
 
