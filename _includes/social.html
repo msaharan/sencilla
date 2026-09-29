@@ -2,6 +2,18 @@
   <a href="mailto:{{ site.author.email }}"><i class="far fa-envelope"></i></a>                                   
 {%- endif -%}
 
+{%- if site.researchgate -%}
+<a href="https://researchgate.net/profile/{{ site.researchgate }}"><i class="fab fa-researchgate"></i></a>
+{%- endif -%}
+
+{%- if site.orcid -%}
+<a href="https://orcid.org/{{ site.orcid }}"><i class="fab fa-orcid"></i></a>
+{%- endif -%}
+
+{%- if site.googlescholar -%}
+<a href="https://scholar.google.com/{{ site.googlescholar }}"><i class="fab fa-google-scholar"></i></a>
+{%- endif -%}
+
 {%- if site.github -%}
 <a href="https://github.com/{{ site.github }}"><i class="fab fa-github"></i></a>
 {%- endif -%}
